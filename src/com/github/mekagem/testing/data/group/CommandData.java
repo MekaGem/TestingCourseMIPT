@@ -36,7 +36,7 @@ public class CommandData extends AbstractTestData {
             for (int index = 0; index < length; ++index) {
                 final String name = params[index * 2];
                 final String description = params[index * 2 + 1];
-                assertEquals(info.get(index).equals(new DictionaryInfo(name, description)), true, "Check failed");
+                assertEquals(info.get(index).toString(), new DictionaryInfo(name, description).toString(), "Check failed");
             }
         }
     }

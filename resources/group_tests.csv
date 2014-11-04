@@ -1,3 +1,8 @@
+ADD,7y489h9h§˙©©˙©¥∆∆˜∫,¢¢¢∞∞55∞∞∞,true
+ADD,D1,¢¢¢∞∞55∞∞∞,true
+REMOVE,D@,false
+CHECK,7y489h9h§˙©©˙©¥∆∆˜∫,¢¢¢∞∞55∞∞∞,D1,¢¢¢∞∞55∞∞∞
+
 ADD,D1,1,true
 ADD,D2,2,true
 CHECK,D1,1,D2,2
