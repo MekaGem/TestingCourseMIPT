@@ -1,8 +1,9 @@
-package com.github.mekagem.testing.wikiregistration;
+package com.github.mekagem.testing.tests.wikipedia;
 
 import au.com.bytecode.opencsv.CSVReader;
-import com.github.mekagem.testing.wikiregistration.data.RegistrationTestData;
-import com.github.mekagem.testing.wikiregistration.data.RegistrationTestDataBuilder;
+import com.github.mekagem.testing.data.wikipedia.RegistrationTestData;
+import com.github.mekagem.testing.data.wikipedia.RegistrationTestDataBuilder;
+import com.github.mekagem.testing.tests.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;

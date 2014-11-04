@@ -1,0 +1,11 @@
+ADD,D1,1,true
+ADD,D2,2,true
+CHECK,D1,1,D2,2
+REMOVE,D1,true
+REMOVE,D1,false
+CHECK,D2,2
+
+ADD,D1,1,true
+ADD,D1,1,false
+REMOVE,D1,true
+REMOVE,D1,false

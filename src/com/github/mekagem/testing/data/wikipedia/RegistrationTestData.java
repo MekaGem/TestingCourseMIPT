@@ -1,4 +1,6 @@
-package com.github.mekagem.testing.wikiregistration.data;
+package com.github.mekagem.testing.data.wikipedia;
+
+import com.github.mekagem.testing.data.AbstractTestData;
 
 public final class RegistrationTestData extends AbstractTestData {
     private String login;

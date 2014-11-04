@@ -1,6 +1,4 @@
-package com.github.mekagem.testing.wikiregistration.data;
-
-import java.lang.reflect.Field;
+package com.github.mekagem.testing.data;
 
 public abstract class AbstractTestData {
     @Override
