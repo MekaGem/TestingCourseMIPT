@@ -63,9 +63,8 @@ public class WikipediaRegistrationTest extends BaseTest {
             WebElement element = driver.findElement(By.id("wpCreateaccount"));
             if (element == null) {
                 return "SUCCESS";
-            } else {
-                return "UNKNOWN ERROR";
             }
+            return "UNKNOWN ERROR";
         }
     }
 }
